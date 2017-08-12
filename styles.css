@@ -1,0 +1,95 @@
+/*media queries*/
+@media screen and (max-width: 980px) {
+	.container {
+		max-width: 980px;
+		width: 80%;
+	}
+	.horse {
+		float: none;
+		width: 100%;
+	}
+
+	.sidebar {
+		max-width: 230;
+		width: 100%;
+
+	}
+
+	.main-section {
+	
+		width: 60%;		
+	}
+
+}
+
+
+@media screen and (max-width: 768px) {
+		.container {
+			width: 90%;
+		}
+		.horse {
+			float: left;
+			width: 60%;
+		}
+
+		.main-section {
+			width: 100%;
+		}
+
+		.sidebar {
+			width: 100%;
+			max-width: 650px;
+			float: left;
+		}
+	}
+
+
+@media screen and (max-width: 640px){
+	.container  {
+		width: 100%;
+	}
+	#main-container {
+		width: 95%;
+		padding-top: 200px;
+
+	}
+
+	nav {
+		float: none;
+		text-align: center;
+		margin-top: 0;
+	}
+	#logo {
+		float: top;
+		width: 100%;
+		margin top: none;
+		max-width: 640px;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.horse {
+		float: none;
+		width: 100%;
+	}
+
+	#masthead {
+		width:100%;
+		margin: 0;
+		height: 160px;
+		
+	}
+
+	nav a {
+		
+		display: inline;
+		padding-left: 30px;
+		padding-right: 30px;
+		text-align: center;
+		margin-top: 10px;
+
+	}
+
+	footer {
+		margin-top: 30px;
+	}
+}
